@@ -31,7 +31,7 @@ The Hodgkin-Huxley model uses four variables to model the nerve membrane potenti
 Spatial coupling is introduced via diffusion of the voltage-like variable:
 
 <p align="left">
-<img width="800" src="images/hh_equations_942_277.png">
+<img width="700" src="images/hh_equations.png">
 </p>
 
 and the steady-state functions
@@ -48,13 +48,12 @@ and the steady-state functions
 <img width="400" src="images/hh_steadystate_n_408_128.png">
 </p>
 
-<!--
-Noise is added via Itô-integration:
+Noise is added via stochastic integration:
 
 <p align="left">
-<img width="280" src="images/fhn_sde_368_96_bg.png">
+<img width="280" src="images/hh_integration.png">
 </p>
--->
+
 
 <!--
 $$ 
