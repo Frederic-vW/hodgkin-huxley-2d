@@ -29,7 +29,7 @@ The Hodgkin-Huxley model uses four variables to model the nerve membrane potenti
 Spatial coupling is introduced via diffusion of the voltage-like variable:
 
 <p align="left">
-<img width="942" src="images/hh_equations_942_277.png">
+<img width="800" src="images/hh_equations_942_277.png">
 </p>
 
 and the steady-state functions
