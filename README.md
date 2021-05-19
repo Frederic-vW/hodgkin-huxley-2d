@@ -37,15 +37,7 @@ Spatial coupling is introduced with a diffusion term for the voltage variable ($
 The steady-state functions contain the experimentally derived voltage-dependency of the gating variables:
 
 <p align="left">
-<img width="360" src="images/hh_steadystate_m.png">
-</p>
-
-<p align="left">
-<img width="300" src="images/hh_steadystate_h.png">
-</p>
-
-<p align="left">
-<img width="360" src="images/hh_steadystate_n.png">
+<img width="600" src="images/hh_steadystate_mhn.png">
 </p>
 
 Noise is added via stochastic integration:
