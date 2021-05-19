@@ -40,7 +40,7 @@ The steady-state functions contain the experimentally derived voltage-dependency
 <img width="360" src="images/hh_steadystate_mhn.png">
 </p>
 
-Noise is added via stochastic integration:
+Noise is added via stochastic integration of the voltage variable $V$:
 
 <p align="left">
 <img width="280" src="images/hh_integration.png">
