@@ -15,7 +15,7 @@ The code is available in Python and Julia.
   - opencv-python (save data as movie)
 
 **_Julia_ Requirements:**
-1. [julia](https://julialang.org/) installation, latest version tested 1.6.0
+1. [julia](https://julialang.org/) installation, latest version tested 1.6.1
 2. julia packages (`julia > using Pkg; Pkg.add("Package Name")`)
   - NPZ
   - PyCall (load Matplotlib animation functionality)
