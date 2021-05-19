@@ -27,13 +27,14 @@ The code is available in Python and Julia.
 
 ## Hodgkin-Huxley model
 
-The Hodgkin-Huxley model uses four variables to model the nerve membrane potential and its response to input currents, including action potentials. The four variables represent voltage ($V$), Na<sup>+</sup>-channel activation ($m$), Na<sup>+</sup>-channel inactivation ($h$), and K<sup>+</sup>-channel activation ($n$).  Spatial coupling is introduced with a diffusion term for the voltage variable ($D Delta v$):
+The Hodgkin-Huxley model uses four variables to model the nerve membrane potential and its response to input currents, including action potentials. The four variables represent voltage ($V$), Na<sup>+</sup>-channel activation ($m$), Na<sup>+</sup>-channel inactivation ($h$), and K<sup>+</sup>-channel activation ($n$). 
 
 <p align="left">
 <img width="700" src="images/hh_equations.png">
 </p>
 
-and the steady-state functions
+Spatial coupling is introduced with a diffusion term for the voltage variable ($D Delta v$).  
+The steady-state functions contain the experimentally derived voltage-dependency of the gating variables:
 
 <p align="left">
 <img width="400" src="images/hh_steadystate_m_400_128.png">
