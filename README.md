@@ -79,8 +79,7 @@ In example 1, use
 - `blocks = [ [[1,15], [5,10]] ]`
 
 ### Example-1
-Stimulation in the lower left corner generates a travelling wave which breaks at and merges after the conduction blocks. 
-After-depolarization does not change the qualitative behaviour of a travelling wave.
+Stimulation in the lower left corner generates a travelling wave along a narrow channel formed by the left boundary and the conduction block defined by `blocks`, an early after-depolarization within the partially refractory region generates a spiral wave.
 Parameters:  
 `N = 128, T = 10000, t0 = 2000, dt = 0.01, s = 1.0, D = 1, C = 1, gNa = 120, gK = 36, gL = 0.3, VNa = 115, VK = -12, VL = 10.6, I = 45.0`
 
@@ -89,4 +88,4 @@ Parameters:
 </p>
 
 ### Conclusions
-The Hodgkin-Huxley lattice can produce travelling waves and stimulation-induced spiral waves.
+The Hodgkin-Huxley lattice can produce spiral waves and other travelling waves.
